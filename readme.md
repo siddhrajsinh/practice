@@ -20,9 +20,11 @@ Run the database migrations (**Set the database connection in .env before migrat
     php artisan migrate
 
 Run the database seeder
+
     php artisan db::seed
 
 IF it's not working then run below command
+
     php artisan db:seed --class=CreateAdminUserTableSeeder
     php artisan db:seed --class=CreateVisitorsTableSeeder
 
